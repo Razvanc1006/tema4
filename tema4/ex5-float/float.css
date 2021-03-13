@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+}
+.container {
+    border: 5px solid green;
+    width: 1000px;
+    height: 225px;
+}
+.nav1 {
+    border: 3px solid purple;
+    width: 20%;
+    float: left;
+    position: relative;
+    
+}
+.sec {
+    border: 2px solid yellow;
+    max-width: 790px;
+    max-height: 200px;
+    
+}
+.sec.first {
+    position: absolute;
+    left: 230px;
+    
+}
+.sec.second {
+    background-color: gray;
+    position: absolute;
+    left: 230px;
+    top: 140px;
+    
+    
+    
+}
+.sec.third {
+    position: absolute;
+    left:230px;
+    top: 240px;
+    
+    
+}
+.footer{
+    border: 4px solid yellowgreen;
+    width: 1000px;
+    height: 75px;
+}

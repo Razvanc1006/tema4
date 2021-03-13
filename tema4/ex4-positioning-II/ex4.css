@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+    height: 2000px;
+    width: 2000px;
+}
+.box{
+    width:1000px;
+    height: 400px;
+    background-color: green;
+    border: 6px dotted purple;
+    
+}
+.child {
+    width: 400px;
+    height: 300px;
+    border:2px dotted purple;
+}
+.child.first {
+    
+    position: absolute;
+    background-color: red;
+    top: 0;
+
+}
+.child.second {
+    background-color: blue;
+    position: absolute;
+    left: 250px;
+    bottom: 530px;
+    z-index: 3;
+
+}
+.child.third {
+    background-color: sandybrown;
+    position: absolute;
+    top: 50px;
+    left: 550px;
+    z-index: 2;
+}
+h2 {
+    text-align: center;
+}

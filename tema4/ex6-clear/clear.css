@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    width: 1000px;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    
+}
+p{
+    font-size: 45px;
+    font-weight: bold;
+}
+.square.blue{
+    border: 5px solid blue;
+
+}
+.square.green{
+    border: 5px solid green;
+}
+.square.red {   
+    border: 5px solid red;
+
+}
+.square.A{
+    float: left;
+    position: absolute;
+    left: 350px;
+    clear: both;
+    
+}
+.square.B{
+    float: left;
+    position: absolute;
+    top: 110px;
+    left: 290px;
+    clear:left;
+}
+.square.C{
+    float: left;
+    position: absolute;
+    top: 110px;
+    left: 400px;
+    clear: right;
+}
+.square.D{
+    float: left;
+    position: absolute;
+    top: 220px;
+    left: 230px;
+    clear: left;
+}
+.square.E{
+    float: left;
+    position: absolute;
+    top: 220px;
+    left: 340px;
+}
+.square.F{
+    float: left;
+    position: absolute;
+    top: 220px;
+    left: 451px;
+    clear: right;
+}
